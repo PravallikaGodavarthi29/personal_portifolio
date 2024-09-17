@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/YOUR_KIT_ID.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-iHkxym4ag27rMs1l/KKSDpAaNVE2mhKqqPcdu+fgvXwqN1j5V8NLpJUcb9tJfRQ13TlD32l4dzh31uIJPmIivw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.jpg" alt="Logo" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>WEB DEVELOPER</p>
+          <h1>HI, I'm <span>GODAVARTHI PRAVALLIKA</span><br />from Guntur</h1>
+        </div>
+      </div>
+    </header>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user....jpg" alt="User Image" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am a passionate web and cloud developer with a strong interest
+              in creating scalable and efficient solutions. My journey in
+              technology started with web development, where I honed my skills
+              in HTML, CSS, and JavaScript to craft engaging and responsive
+              websites.
+            </p>
+            <p>
+              As I delved deeper into the world of technology, I discovered the
+              power of cloud computing. I am proficient in cloud platforms such
+              as AWS, Azure, and Google Cloud, leveraging their services to
+              build robust and secure applications.
+            </p>
+            <p>
+              I believe in continuous learning and staying updated with the
+              latest trends in web and cloud development to deliver cutting-edge
+              solutions that meet modern business needs.
+            </p>
+          </div>
+          <div class="about-col-3">
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('SKILLS')">
+                SKILLS
+              </p>
+              <p class="tab-links" onclick="opentab('EDUCATION')">EDUCATION</p>
+              <p class="tab-links" onclick="opentab('EXPERIENCE')">
+                EXPERIENCE
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="SKILLS">
+              <ul>
+                <li>
+                  <span>Web Designing</span><br />Designing web applications
+                  interfaces
+                </li>
+                <li>
+                  <span>Cloud Services</span><br />Streamlining IT
+                  infrastructure, providing scalable resources and
+                  cost-effective solutions via the internet.
+                </li>
+                <li>
+                  <span>Data Analytics</span><br />Deriving actionable insights
+                  and making data-driven decisions.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="EDUCATION">
+              <ul>
+                <li>
+                  <span>2022-2026</span><br />IT student from Vignan University
+                </li>
+                <li>
+                  <span>2019-2021</span><br />MPC from Sri Chaitanya Junior
+                  College
+                </li>
+                <li>
+                  <span>2017-2018</span><br />SSC from Bhashyam Institutions
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="EXPERIENCE">
+              <ul>
+                <li>
+                  <span>Feb 2024 - March 2024</span><br />Web Developer Intern
+                  at Bharath Internship
+                </li>
+                <li>
+                  <span>March 2024 - April 2024</span><br />Machine Learning
+                  Intern at Devtern
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div class="service-item">
+            <i class="fas fa-code"></i>
+            <h2>WEB DESIGN</h2>
+            <p>
+              We offer custom website design, e-commerce solutions, and web
+              design to create stunning, user-friendly, and responsive websites.
+              Our services include website redesigns and CMS integration,
+              ensuring modern, optimized, and easily manageable web platforms.
+              Partner with us to elevate your online presence and drive business
+              growth.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-cloud"></i>
+            <h2>Cloud Services</h2>
+            <p>
+              I provide comprehensive cloud services that include cloud
+              infrastructure setup, management, and optimization to ensure
+              scalability and efficiency. My expertise spans cloud migration,
+              deployment, and maintenance, focusing on maximizing performance
+              and cost-effectiveness. Additionally, I offer robust security
+              solutions and continuous monitoring to safeguard your data and
+              ensure compliance.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-chart-area"></i>
+            <!-- Updated icon class -->
+            <h2>Data Analytics</h2>
+            <p>
+              I offer end-to-end data analytics services, transforming raw data
+              into actionable insights. My expertise includes data collection,
+              processing, and visualization, leveraging advanced statistical
+              methods and machine learning algorithms. I help businesses make
+              informed decisions by providing clear, data-driven strategies and
+              predictive analytics to drive growth and efficiency.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" alt="Work 1" />
+            <div class="layer">
+              <h3>Blog Website App</h3>
+              <p>
+                A blog website serves as a dynamic platform for individuals or
+                organizations to share thoughts, insights, and updates on
+                various topics. It typically features regularly updated posts,
+                categorized content, and interactive elements like comments and
+                social sharing. Designed for ease of use, a blog website helps
+                build a community, engage audiences, and enhance online presence
+                through compelling and accessible content.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" alt="Work 2" />
+            <div class="layer">
+              <h3>Money Tracker App</h3>
+              <p>
+                A money tracker app is a digital tool that assists users in
+                managing their finances by tracking income, expenses, savings,
+                and investments. It provides insights through budgeting
+                features, customizable categories for spending analysis, and
+                goal-setting capabilities, helping users make informed financial
+                decisions and achieve their monetary objectives effectively.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="Work 3" />
+            <div class="layer">
+              <h3>Personal Portfolio</h3>
+              <p>
+                A personal portfolio showcases an individual's professional
+                skills, achievements, and projects, serving as a comprehensive
+                overview of their expertise. It typically includes sections like
+                about me, skills, education, work experience, and a portfolio of
+                projects or work samples. A well-designed portfolio helps
+                individuals present themselves effectively to potential
+                employers or clients, highlighting their strengths and
+                capabilities in a visually appealing and organized manner.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">contact me</h1>
+            <p>godavarthipravallika59@gmail.com</p>
+            <p>7207492731</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+              <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download cv</a>
+            <div class="contact-right">
+              <form>
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="your name"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="your email"
+                  required
+                />
+                <textarea
+                  name="Message"
+                  rows="6"
+                  placeholder="your message"
+                ></textarea>
+                <button type="submit">submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>copyright@pravallika</p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (var tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (var tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
